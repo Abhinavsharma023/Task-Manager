@@ -1,7 +1,7 @@
 // 1. Create controller functions
 // blog_index_get, blog_id_get, blog_create_post, blog_delete
 // 2. Export these functions..
-// 3. Import these functions in the routes file
+// 3. Import these functions in the routes file...
 const BlogPost = require('../models/blogpost');
 
 
