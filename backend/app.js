@@ -120,7 +120,7 @@ app.use((req, res) => {
 // 3. Next , we should update the blog with the key before saving it to the database
 // 3.1 In order to update the blog with the key (ID), first we need to get info about the logged in user
 // 3.2 Can we use res.locals.user to get the user info?
-// Does it have the user ID ? -> NO
+// Does it have the user ID ? -> NOf
 // Can we add the userID to the res.locals.user object? Where does this value come from?
 // token ? cookies?
 // We need to update the token generation logic to include the user ID
